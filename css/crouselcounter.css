@@ -1,134 +1,87 @@
-.carousel {
-    margin-left: 0%;
-    margin-right: 0%;
+
+
+.carousel-inner {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+.carousel-inner {
+	padding-top: 43.25%;
+	display: block;
+	content: "";
+}
+.carousel-item {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: skyblue;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-ul.slides {
-    display: block;
-    position: relative;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style: none;
+.caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	width: 60%;
+	z-index: 9;
+	margin-top: 20px;
+	text-align: center;
+}
+.caption h1 {
+  color: #fff;
+	font-size: 52px;
+	font-weight: 700;
+	margin-bottom: 23px;
+}
+.caption h2 {
+  color: rgba(255,255,255,.75);
+	font-size: 26px;
+	font-weight: 300;
+}
+a.big-button {
+	color: #fff;
+	font-size: 19px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #eb7a00;
+	background: rgba(255, 0, 0, 0.75);
+	padding: 28px 35px;
+	border-radius: 3px;
+	margin-top: 80px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+a.big-button:hover {
+	text-decoration: none;
+	background: rgba(255, 0, 0, 0.9);
+}
+a.view-demo {
+	color: #fff;
+	font-size: 21px;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 35px;
+}
+a.view-demo:hover {
+	text-decoration: none;
+	color: #333;
 }
 
-.slides * {
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
+.carousel-indicators .active {
+  background: #fff;
 }
-
-ul.slides input {
-    display: none; 
+.carousel-indicators li {
+  background: rgba(255, 255, 255, 0.4);
+  border-top: 20px solid;
+  z-index: 15;
 }
-
-
-.slide-container { 
-    display: block; 
-}
-
-.slide-image {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 0;
-    transition: all .7s ease-in-out;
-}   
-
-.slide-image img {
-    width: auto;
-    min-width: 100%;
-    height: 100%;
-}
-
-.carousel-controls {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    font-size: 100px;
-    line-height: 600px;
-    color: #fff;
-}
-
-.carousel-controls label {
-    display: none;
-    position: absolute;
-    padding: 0 20px;
-    opacity: 0;
-    transition: opacity .2s;
-    cursor: pointer;
-}
-
-.slide-image:hover + .carousel-controls label{
-    opacity: 0.5;
-}
-
-.carousel-controls label:hover {
-    opacity: 1;
-}
-
-.carousel-controls .prev-slide {
-    width: 49%;
-    text-align: left;
-    left: 0;
-}
-
-.carousel-controls .next-slide {
-    width: 49%;
-    text-align: right;
-    right: 0;
-}
-
-.carousel-dots {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    z-index: 999;
-    text-align: center;
-}
-
-.carousel-dots .carousel-dot {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.5;
-    margin: 10px;
-}
-
-input:checked + .slide-container .slide-image {
-    opacity: 1;
-    transform: scale(1);
-    transition: opacity 1s ease-in-out;
-}
-
-input:checked + .slide-container .carousel-controls label {
-     display: block; 
-}
-
-input#img-1:checked ~ .carousel-dots label#img-dot-1,
-input#img-2:checked ~ .carousel-dots label#img-dot-2,
-input#img-3:checked ~ .carousel-dots label#img-dot-3,
-input#img-4:checked ~ .carousel-dots label#img-dot-4,
-input#img-5:checked ~ .carousel-dots label#img-dot-5,
-input#img-6:checked ~ .carousel-dots label#img-dot-6 {
-	opacity: 1;
-}
-
-
-input:checked + .slide-container .nav label { display: block; }
-
-
 
 /* body {
   font-family: 'Roboto Condensed', sans-serif;
@@ -145,8 +98,10 @@ input:checked + .slide-container .nav label { display: block; }
   box-sizing: border-box;
 }
 .counterss{
-  background-color: gainsboro;
-  font-family: 'Roboto Condensed', sans-serif;
+ background-image: url(../img/wallpaper-967837_1920.jpg);
+  background-color:#212F3D ;
+  background-attachment: fixed;
+ 
  }
  
 
@@ -175,6 +130,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 
 .sectiontitle {
+ 
   background-position: center;
   margin: 30px 0 0px;
   text-align: center;
@@ -182,8 +138,9 @@ input:checked + .slide-container .nav label { display: block; }
 }
 
 .sectiontitle h2 {
-  font-size: 30px;
-  color:black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 300px;
+  color:snow;
   margin-bottom: 0px;
   padding-right: 10px;
   padding-left: 10px;
@@ -194,7 +151,7 @@ input:checked + .slide-container .nav label { display: block; }
   width: 160px;
   height: 2px;
   display: inline-block;
-  background: black;
+  background: #F1C40F;
 }
 
 
@@ -217,7 +174,7 @@ input:checked + .slide-container .nav label { display: block; }
   text-align: center;
 }
 
-.projectFactsWrap .item:nth-child(1){
+/* .projectFactsWrap .item:nth-child(1){
   background: rgb(71, 144, 218);
 }
 
@@ -231,7 +188,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 .projectFactsWrap .item:nth-child(4){
   background: rgb(42, 223, 66);
-}
+} */
 
 .projectFactsWrap .item p.number{
   font-size: 40px;
@@ -240,8 +197,10 @@ input:checked + .slide-container .nav label { display: block; }
 }
 
 .projectFactsWrap .item p{
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  color: snow;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  font-size: 30px;
   margin: 0;
   padding: 10px;
   font-family: 'Open Sans';
@@ -250,7 +209,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 .projectFactsWrap .item span{
   width: 60px;
-  background: black;
+  background: snow;
   height: 2px;
   display: block;
   margin: 0 auto;
@@ -260,16 +219,16 @@ input:checked + .slide-container .nav label { display: block; }
 .projectFactsWrap .item i{
   vertical-align: middle;
   font-size: 50px;
-  color: rgba(255, 255, 255, 0.8);
+  color: snow;
 }
 
 
 .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
-  color: white;
+  color: yellow;
 }
 
 .projectFactsWrap .item:hover span{
-  background: white;
+  background: #F1C40F;
 }
 
 @media (max-width: 786px){
