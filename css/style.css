@@ -213,19 +213,19 @@ body {
 }
 
 .projectFactsWrap .item:nth-child(1){
-  background: rgb(16, 31, 46);
+  background: rgb(71, 144, 218);
 }
 
 .projectFactsWrap .item:nth-child(2){
-  background: rgb(18, 34, 51);
+  background: rgb(63, 73, 3);
 }
 
 .projectFactsWrap .item:nth-child(3){
-  background: rgb(21, 38, 56);
+  background: rgb(228, 27, 138);
 }
 
 .projectFactsWrap .item:nth-child(4){
-  background: rgb(23, 44, 66);
+  background: rgb(42, 223, 66);
 }
 
 .projectFactsWrap .item p.number{
