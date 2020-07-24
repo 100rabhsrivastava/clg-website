@@ -25,3 +25,9 @@
     color: black;
     font-family: 'Playfair Display', serif;
 }
+.events{
+  background-image: url(../img/c2.jpg);
+  
+  width: fit-content;
+
+}
