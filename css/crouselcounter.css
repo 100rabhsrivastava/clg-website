@@ -17,8 +17,9 @@
   box-sizing: border-box;
 }
 .counterss{
- background-image: url(../img/wallpaper-967837_1920.jpg);
-  background-color:#212F3D ;
+ background-image: url(https://cdn.pixabay.com/photo/2017/05/26/14/57/fabric-2346207_1280.jpg);
+ filter: grayscale(100%);
+
   background-attachment: fixed;
  
  }
@@ -59,7 +60,7 @@
 .sectiontitle h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 300px;
-  color:snow;
+  color:white;
   margin-bottom: 0px;
   padding-right: 10px;
   padding-left: 10px;
@@ -116,7 +117,7 @@
 }
 
 .projectFactsWrap .item p{
-  color: snow;
+  color: white;
   font-family: 'Roboto Condensed', sans-serif;
 
   font-size: 30px;
@@ -128,7 +129,7 @@
 
 .projectFactsWrap .item span{
   width: 60px;
-  background: snow;
+  background: white;
   height: 2px;
   display: block;
   margin: 0 auto;
@@ -138,16 +139,16 @@
 .projectFactsWrap .item i{
   vertical-align: middle;
   font-size: 50px;
-  color: snow;
+  color: white;
 }
 
 
 .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
-  color: yellow;
+  color: white;
 }
 
 .projectFactsWrap .item:hover span{
-  background: #F1C40F;
+  background: white;
 }
 
 @media (max-width: 786px){
