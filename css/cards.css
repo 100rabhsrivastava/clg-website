@@ -25,9 +25,14 @@
     color: black;
     font-family: 'Playfair Display', serif;
 }
-.events{
+/* .events{
   background-image: url(../img/c2.jpg);
-  
+
   width: fit-content;
 
+} */
+.events{
+  display: flex;
+  margin: 40px;
+  overflow-x: scroll;
 }
