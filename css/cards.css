@@ -1,0 +1,24 @@
+.myi{
+  background-color: maroon;
+    text-align: center;
+    width: 100%;
+   border-radius: 10%;
+}
+.crdclr{
+    background-color: honeydew;
+    margin-top:20px;
+}
+#myeve{
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: auto;
+}
+.ser-head{
+  font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
