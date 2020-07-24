@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css"> 
   <!-- Your custom styles (optional) -->
 
   <link rel="stylesheet" href="css/cards.css">
@@ -287,7 +288,51 @@
 <br>
 <section>
 
-  
+  <div id="owl-demo" class="owl-carousel owl-theme">
+          
+    <div class="item"><div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./img/img2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div></div>
+    <div class="item"><div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./img/img2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div></div>
+    <div class="item"><div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./img/img2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div></div>
+    <div class="item"><div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./img/img2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div></div>
+    <div class="item"><div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./img/img2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div></div>
+
+   
+  </div>
 </section>
 <section>
   <!-- Footer -->
@@ -434,6 +479,11 @@
 </footer>
 <!-- Footer -->
 </section>
+<script src="assets/js/jquery.min.js"></script>  
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.js"></script>   
+<!-- Slick slider -->
+<script type="text/javascript" src="assets/js/slick.js"></script>
   <!-- jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -444,7 +494,16 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript">
-  
+  $(document).ready(function() {
+ 
+ $("#owl-demo").owlCarousel({
+   navigation : true
+ });
+
+});
+</script>
+<script type="text/javascript">
+
 	$.fn.jQuerySimpleCounter = function( options ) {
 	    var settings = $.extend({
 	        start:  0,
