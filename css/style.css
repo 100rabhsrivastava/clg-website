@@ -6,26 +6,26 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+.events{
+    border-radius: 20px;
+   margin: 10px;
+    padding: 10px;
+    background-color: honeydew;
+    width: 250px;
+    height: auto;
+  }
+  
 
 #owl-demo{
-    background-color: teal;
+   background-image: url(https://cdn.pixabay.com/photo/2016/06/29/08/50/pencil-1486278_1280.jpg);
+   background-attachment: fixed;
     display: flex;
     width: 100%;
- 
+ margin-top: 40px ;
     justify-content:space-around;
   
    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 #owl-demo .item{
     background: transparent;
@@ -37,9 +37,6 @@
     border-radius: 3px;
     text-align: center;
   }
-
-
-
 
 .head{
     font-size: 30px;
@@ -54,7 +51,14 @@
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.board{
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
 
+}
 
 
 
