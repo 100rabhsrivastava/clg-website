@@ -7,11 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 #owl-demo{
+    background-color: teal;
     display: flex;
     width: 100%;
-    overflow-x: scroll;
-    margin: 30px;
+ 
+    justify-content:space-around;
+  
+   margin-right: 10px;
+    margin-bottom: 20px;
 }
 #owl-demo .item{
     background: transparent;
@@ -23,14 +37,6 @@
     border-radius: 3px;
     text-align: center;
   }
-
-
-
-
-
-
-
-
 
 
 
@@ -60,6 +66,16 @@
 
 
 
+@media screen and (max-width: 780px) {
+    .phone{
+      background-color: violet;
+      display: inline;
+    }
+   #owl-demo{
+    overflow-x: scroll;
+    justify-content: flex-start;
+   }
 
+   }
    
    

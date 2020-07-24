@@ -5,7 +5,9 @@
   
    color: #1F618D;
 }
-
+.myi:hover{
+ 
+}
 .crdclr{
     background-color: #ECF0F1;
     margin-top:20px;
@@ -24,15 +26,4 @@
     font-weight: 900;
     color: black;
     font-family: 'Playfair Display', serif;
-}
-/* .events{
-  background-image: url(../img/c2.jpg);
-
-  width: fit-content;
-
-} */
-.events{
-  display: flex;
-  margin: 40px;
-  overflow-x: scroll;
 }
