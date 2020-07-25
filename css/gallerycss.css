@@ -1,0 +1,16 @@
+.img{
+    width: 300px;
+    height: 300px;
+}
+.inner{
+    opacity: 0;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+ color:wheat;
+ transition: 2s ease;
+}
+.inner:hover{
+    opacity: 1;
+    transition: 2s ease;
+}
