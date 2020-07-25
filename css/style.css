@@ -93,13 +93,13 @@ body{
    }
    
    .slide1 {
-     background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
+     background-image: url("../img/About\ us.png");
    }
    .slide2 {
-     background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
+     background-image: url("https://cdn.pixabay.com/photo/2017/10/10/09/32/new-years-eve-2836544_1280.jpg");
    }
    .slide3 {
-     background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
+     background-image: url("https://cdn.pixabay.com/photo/2020/04/15/11/31/girl-5046270_1280.jpg");
    }
    
    .slide-content {
@@ -111,8 +111,8 @@ body{
    }
    
    .slide-content span {
-     font-size: 5rem;
-     color: #fff;
+     font-size: 3rem;
+     color: black;
    }
    
    .arrow {
@@ -126,15 +126,15 @@ body{
    }
    
    #arrow-left {
-     border-width: 30px 40px 30px 0;
-     border-color: transparent #fff transparent transparent;
+     border-width: 15px 20px 15px 0;
+     border-color: transparent black transparent transparent;
      left: 0;
      margin-left: 30px;
    }
    
    #arrow-right {
-     border-width: 30px 0 30px 40px;
-     border-color: transparent transparent transparent #fff;
+     border-width: 15px 0 15px 20px;
+     border-color: transparent transparent transparent rgb(0, 0, 0);
      right: 0;
      margin-right: 30px;
    }
