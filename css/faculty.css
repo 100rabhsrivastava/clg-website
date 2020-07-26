@@ -4,10 +4,11 @@
 }
 
 .containers {
+ 
     position: relative;
-    width: 280px;
-    margin:10px;
-   
+    width: 90%;
+    margin: 5%;
+    justify-content: space-between;
   }
   .containers:hover .image {
     opacity: 0.3;
