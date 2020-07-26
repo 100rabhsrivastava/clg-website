@@ -1,7 +1,12 @@
+.fac{
+    margin: 10px;
+    background-color: cadetblue;
+}
+
 .containers {
     position: relative;
-    width: 300px;
-    margin:20px;
+    width: 280px;
+    margin:10px;
    
   }
   .containers:hover .image {
