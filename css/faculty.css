@@ -1,3 +1,14 @@
+.facbread{
+ height: 45vh;
+  background-attachment: fixed;
+
+}
+.midle{
+  position: absolute;
+ display: block;
+  top:30%;
+}
+
 .fac{
     margin: 10px;
     background-color: cadetblue;
