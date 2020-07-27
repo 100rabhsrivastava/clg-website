@@ -3,12 +3,24 @@
     height: 250px;
 }
 .img1{
-    padding: 14px;
-    margin: auto;
+    padding: 15px;
+    
+    margin: 5px;
     
    
 }
+.gallery{
+    position: absolute;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 30%;
+    left: 38%;
+  
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    
 
+}
 .bread{
     width: 100%;
     height: 400px;
@@ -23,13 +35,16 @@
     padding-right: 1px;
     border-left: 0px;
     border-right: 0px;
+    justify-content: stretch;
 }
 
 
 .img:hover{
    border-width: 8px;
-    border-color: darkblue;
+    border-color: wheat;
     border-style: solid;
+   
+    
     
 }
 .content{
