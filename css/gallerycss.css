@@ -1,16 +1,28 @@
 .img{
-    width: 250px;
+    width: 280px;
     height: 250px;
 }
+.img1{
+    padding: 14px;
+    margin: auto;
+    
+   
+}
+
 .bread{
     width: 100%;
-    height: 300px;
+    height: 400px;
 
 }
-.img{
-    margin: auto;
-    padding-left: 1px;
-    padding-bottom: 5px;
+
+.container{
+    
+    margin-left: 4px;
+    padding-left: 3px;
+    margin-right: 2px;
+    padding-right: 1px;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 
@@ -21,6 +33,6 @@
     
 }
 .content{
-    width: 800pxx;
+    width: 100%;
     
 }
