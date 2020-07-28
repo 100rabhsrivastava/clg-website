@@ -77,3 +77,14 @@ height: 60%;
  }
 
  }
+ @media screen and (max-width: 480px) {
+  .midle{
+    margin-top: 10px;
+   font-size: 24px;
+  }
+  .ob{
+    font-size: 19px;
+  }
+  .facbreadcrum {
+   margin-top: 8px;}
+}
