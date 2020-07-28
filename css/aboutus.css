@@ -50,10 +50,13 @@
 
 .ds-msg{
     background-color: whitesmoke;
+    display: flex;
 
 }
 .ds-img{
+
   width: 330px;
+  height: 350px ;
     padding:20px;
     display: block;
     margin-left: auto;
@@ -61,10 +64,15 @@
   
 }
 .para2{
+  padding-top: 90px;
   padding-bottom: 15px;
   padding-right: 80px;
   padding-left: 80px;
   text-align: justify;
+}
+.abutdal{
+  padding:80px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 650px) {
@@ -74,6 +82,10 @@
  .ds-img{
 width: 85%;
 height: 60%;
+ }
+ .ds-msg{
+   display: inline;
+   padding: 10px;
  }
 
  }
