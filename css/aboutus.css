@@ -47,3 +47,33 @@
     padding-bottom: 6px;
     background-color:#82E0AA ;
 }
+
+.ds-msg{
+    background-color: whitesmoke;
+
+}
+.ds-img{
+  width: 330px;
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.para2{
+  padding-bottom: 15px;
+  padding-right: 80px;
+  padding-left: 80px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 650px) {
+  .para2{
+   padding: 10px;
+  }
+ .ds-img{
+width: 85%;
+height: 60%;
+ }
+
+ }
