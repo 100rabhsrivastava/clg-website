@@ -2,7 +2,7 @@ body{
   background-color: fcf6f5ff;
 }
 .whole{
-background-color: #e6ffe6;
+background-color: #ccf5ff;
 }
 #sent{
   color: black;
@@ -16,7 +16,7 @@ background-color: #e6ffe6;
     border-radius: 20px;
    margin: 10px;
     padding: 10px;
-    background-color: honeydew;
+    background-color: #ffffe6;
     width: 250px;
     height: auto;
   }
@@ -63,7 +63,7 @@ background-color: #e6ffe6;
     text-align: justify;
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
-
+    
 }
 
 
@@ -81,10 +81,10 @@ background-color: #e6ffe6;
    
    .about{
      margin-top: 10px;
-     background-color:  #29a329;
+    
    }
    .service{
-     background-color: #29a329;
+     background-color: #0066cc;
    }
   
   
@@ -99,5 +99,7 @@ background-color: #e6ffe6;
     display: flex;
     overflow-x: scroll;
   }
-  
+  .notice{
+    background-color: #ffffe6;
+  }
    
