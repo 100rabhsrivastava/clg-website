@@ -1,6 +1,9 @@
 body{
   background-color: fcf6f5ff;
 }
+.whole{
+background-color: #e6ffe6;
+}
 .events{
     border-radius: 20px;
    margin: 10px;
