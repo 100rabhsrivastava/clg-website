@@ -1,0 +1,49 @@
+.facbreadcrum {
+    position: relative;
+    text-align: center;
+    color: black;}
+  .midle {
+   
+    padding: 15px;
+    font-weight: 1000;
+    font-size: 50px;
+  font-family: 'Playfair Display', serif;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ob{
+    font-weight: 400px;
+    color: orangered;
+    font-size: 30px;
+  }
+
+  .head{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+.para{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.vision{
+    margin: 10px;
+    padding: 10px;
+    font-weight: 520;
+    padding-bottom: 6px;
+    background-color:#F1948A ;
+
+} 
+.mission{
+    font-weight:520;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 6px;
+    background-color:#82E0AA ;
+}
