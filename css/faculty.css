@@ -26,6 +26,13 @@ font-family: 'Playfair Display', serif;;
     margin: 10px;
     background-color: cadetblue;
 }
+.head1{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
 
 .containers {
  
@@ -37,11 +44,13 @@ font-family: 'Playfair Display', serif;;
   }
   .containers:hover .image {
     opacity: 0.3;
+   
   }
   .image {
     display: block;
     width: 100%;
     height: auto;
+    transition: .5s ease;
   }
   
   .overlay {
