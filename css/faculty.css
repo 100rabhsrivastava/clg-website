@@ -92,7 +92,19 @@ font-family: 'Playfair Display', serif;;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
+.facn{
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 22px;
+  color: black;
+  font-weight: 700;
+  margin-left: 40px;
+background-color: turquoise;
+width: 250px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
   @media screen and (max-width: 480px) {
     .midle{
       margin-top: 10px;

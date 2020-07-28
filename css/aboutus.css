@@ -33,6 +33,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 .vision{
+ 
     margin: 10px;
     padding: 10px;
     font-weight: 520;
@@ -57,11 +58,17 @@
 
   width: 330px;
   height: 350px ;
-    padding:20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  padding:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   
+}
+.alu-bt{
+  padding-left:28%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .para2{
   padding-top: 90px;
