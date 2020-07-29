@@ -101,6 +101,13 @@ body{
    font-weight: 300;
    color: white;
 }
+#set{
+  color: #DEF2F1;
+}
+.res1{
+  width: 250px;
+  height: 250px;
+}
 .subsec{
   display: flex;
   text-align: center;
