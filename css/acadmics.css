@@ -1,9 +1,14 @@
+@import"<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">";
+
+body{
+    background-color: #EBF5FB ;
+}
 .head{
     font-size: 30px;
     text-align: center;
     font-weight: 600;
-    color: black;
-    font-family: 'Playfair Display', serif;
+    color: #1B4F72 ;
+    font-family: 'Fjalla One', sans-serif;
 }
 .para{
     font-size: 20px;
@@ -11,3 +16,34 @@
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.facbreadcrum {
+    position: relative;
+    text-align: center;
+    color: black;}
+  .midle {
+   
+    padding: 15px;
+    font-weight: 1000;
+    font-size: 50px;
+  font-family: 'Playfair Display', serif;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ob{
+    font-weight: 400px;
+    color: orangered;
+    font-size: 30px;
+  }
+  @media screen and (max-width: 480px) {
+    .midle{
+      margin-top: 10px;
+     font-size: 24px;
+    }
+    .ob{
+      font-size: 19px;
+    }
+    .facbreadcrum {
+     margin-top: 8px;}
+  }
