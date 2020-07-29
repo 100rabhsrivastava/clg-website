@@ -84,17 +84,23 @@ body{
   display: flex;
   padding: 3px;
 }
-.res{
-  position: relative;
-  position: absolute;
-  left: 40%;
-  color: black;
-  font-weight: 200;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
+
+#one{
+  background-color: cadetblue;
+  height: 400px;
+  text-align: center;
+  
 }
-.Acheiv{
-  padding: 3px;
+#two{
+  background-color: darkcyan;
+  height: 400px;
+}
+.subsec{
+  display: flex;
+}
+.res{
+  transform: translate(-2%,10%);
+      position: relative;
 }
 
 
@@ -131,7 +137,11 @@ body{
     display: flex;
     overflow-x: scroll;
   }
-  .notice{
-    background-color: #ffffe6;
+ 
+  @media screen and (max-width: 480px){
+    .res{
+      
+      font-size: 24px;
+    }
   }
-   
+  
