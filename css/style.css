@@ -14,9 +14,13 @@ background-color: #ccf5ff;
 .pic{
   width: 100px;
   height: 100px;
-  
-
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0px;
+  transform: translate(58%,-15%);
+ 
 }
+
 
 
 .events{
@@ -49,6 +53,9 @@ background-color: #ccf5ff;
     -moz-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
+  }
+  #card{
+    background-color: lavender;
   }
 
 .head{
