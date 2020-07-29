@@ -1,10 +1,12 @@
+body{
+    background-color:#DEF2F1 ;
+  }
 .img{
     width: 280px;
     height: 250px;
 }
 .img1{
     padding: 15px;
-    
     margin: 5px;
     
    
@@ -13,17 +15,22 @@
     position: absolute;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    top: 30%;
-    left: 38%;
+    top: 25%;
+    left: 45%;
   
     font-family: 'Playfair Display', serif;
-    font-size: 80px;
+    font-size: 50px;
     
 
 }
+.midsec{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+}
 .bread{
     width: 1920px;
-    height: 500px;
+    height: 380px;
 
 
 }
