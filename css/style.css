@@ -77,6 +77,26 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     
 }
+.containerrr{
+  border-color: teal;
+}
+.divflex{
+  display: flex;
+  padding: 3px;
+}
+.res{
+  position: relative;
+  position: absolute;
+  left: 40%;
+  color: black;
+  font-weight: 200;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+.Acheiv{
+  padding: 3px;
+}
+
 
 
 @media screen and (max-width: 780px) {
