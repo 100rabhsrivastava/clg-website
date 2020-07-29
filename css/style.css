@@ -95,8 +95,16 @@ body{
   background-color: darkcyan;
   height: 400px;
 }
+#line{
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-weight: 300;
+   color: white;
+}
 .subsec{
   display: flex;
+  text-align: center;
+
 }
 .res{
   transform: translate(-2%,10%);
