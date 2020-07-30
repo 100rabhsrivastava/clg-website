@@ -107,15 +107,27 @@ body{
   color: #DEF2F1;
 }
 .res1{
-  width: 260px;
-  height: 260px;
+  width: 200px;
+  height: 160px;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 3.5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0px 0px 0px 0px ;
   border-color: #DEF2F1;
   border-style: double;
   border-width: 2px;
+}
+.photo{
+  background-color: black;
+  margin: 5px;
+  padding: 3px;
+}
+.content{
+  transform: translate(0, 50%);
+  top: 30%;
+}
+#hello{
+  top: 30%;
 }
 .subsec{
   display: flex;
@@ -138,6 +150,9 @@ body{
     .phone{
       background-color: violet;
       display: inline;
+    }
+    .divflex{
+      display: inline
     }
    #owl-demo{
     overflow-x: scroll;
