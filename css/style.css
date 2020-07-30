@@ -105,8 +105,12 @@ body{
   color: #DEF2F1;
 }
 .res1{
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3.5px;
 }
 .subsec{
   display: flex;
@@ -116,6 +120,10 @@ body{
 .res{
   transform: translate(-2%,10%);
       position: relative;
+}
+.ugh{
+  padding: 1px;
+  
 }
 
 
@@ -155,8 +163,8 @@ body{
  
   @media screen and (max-width: 480px){
     .res{
-      
       font-size: 24px;
     }
+   
   }
   
