@@ -52,4 +52,17 @@ body{
     padding-bottom: 10px;
     display: flex;
   }
+  @media screen and (max-width: 880px) {
+    .faccard{
+      text-align: justify;
+      padding:10px;
+      display: inline;
+    }
+    h2{
+      padding-left: 15px;
+    }
+    .im{
+      padding-left: 10px;
+    }
+  }
   
