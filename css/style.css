@@ -2,7 +2,7 @@ body{
   background-color:#E0F7FA ;
 }
 
-#sent{
+/* #sent{
   color: black;
 }
 
@@ -17,7 +17,7 @@ body{
   padding-right: 0px;
   transform: translate(58%,-15%);
  
-}
+} */
 
 
 
@@ -77,7 +77,7 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     
 }
-.containerrr{
+/* .containerrr{
   border-color: teal;
 }
 .divflex{
@@ -142,7 +142,7 @@ body{
   padding: 1px;
   
   
-}
+} */
 
 
 
@@ -151,8 +151,9 @@ body{
       background-color: violet;
       display: inline;
     }
-    .divflex{
-      display: inline
+    .phoneing{
+      display: inline;
+      margin: -10px;
     }
    #owl-demo{
     overflow-x: scroll;
@@ -182,13 +183,25 @@ body{
     overflow-x: scroll;
   }
  
-  @media screen and (max-width: 320px){
+  /* @media screen and (max-width: 320px){
     .res{
       font-size: 22px;
     }
     #one{
       width: 100%;
+    } */
+    .result-main{
+      background-color: burlywood;
+      padding:30px;
+      width: 100%;
+      height: 500px;
+      overflow-y: scroll;
     }
-   
-  }
+.result-name{
+  padding: 5px;
+  padding-top: 24px;
+  padding-left: 15px;
+  color: black;
+  font-weight: 300;
+} 
   
