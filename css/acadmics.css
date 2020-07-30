@@ -47,3 +47,9 @@ body{
     .facbreadcrum {
      margin-top: 8px;}
   }
+  .faccard{
+    padding: 70px;
+    padding-bottom: 10px;
+    display: flex;
+  }
+  
