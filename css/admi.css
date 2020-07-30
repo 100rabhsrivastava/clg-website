@@ -21,6 +21,14 @@ padding:40px;
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.para{
+  padding-left: 60px;
+  padding-right: 60px;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .facbreadcrum {
     position: relative;
     text-align: center;
@@ -47,16 +55,25 @@ padding:40px;
      font-size: 24px;
     }
     .ob{
-      font-size: 19px;
+      font-size: 15px;
     }
     .facbreadcrum {
      margin-top: 8px;}
+     .but{
+       padding: 5px;
+     }
+     .admsn-para{
+       padding: 5px;
+     }
+     .admsn{
+       padding: 10px;
+     }
+     .but{
+       padding: 5px;
+     }
   }
   .but{
-    border-radius: 5%;
-    height: 200px;
-    padding: 70px;
-    text-align: center;
+   padding-left: 30px;
 
     justify-content: space-evenly;
   }
