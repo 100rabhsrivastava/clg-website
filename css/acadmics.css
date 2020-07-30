@@ -58,6 +58,9 @@ body{
       padding:10px;
       display: inline;
     }
+    .poh{
+      display: inline !important;
+    }
     h2{
       padding-left: 15px;
     }

@@ -10,7 +10,12 @@ body{
     color: #1B4F72 ;
     font-family: 'Fjalla One', sans-serif;
 }
-.para{
+.admsn{
+padding:40px;
+}
+.admsn-para{
+  padding-left: 60px;
+  padding-right: 60px;
     font-size: 20px;
     text-align: justify;
     color: black;
@@ -46,4 +51,12 @@ body{
     }
     .facbreadcrum {
      margin-top: 8px;}
+  }
+  .but{
+    border-radius: 5%;
+    height: 200px;
+    padding: 70px;
+    text-align: center;
+
+    justify-content: space-evenly;
   }
