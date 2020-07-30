@@ -16,8 +16,8 @@
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/crouselcounter.css">
+  <link rel="stylesheet" href="css/aboutus.css">
+
 </head>
 <body>
 
@@ -88,18 +88,60 @@
   </section>
 <br>
 <br>
-<br>
-<br>
-<section>
+<section  >
+  <div  class="facbreadcrum" >
+  <img   class="facbread"  src="./img/contact us 2.png" alt="" width="100%" >
+  <div class="midle">
+    <p>  Contact Us  <br>
+    <span class="ob">
+    <a style="color: orangered;" href="">Home</a> / <a style="color: orangered;" href="">Contact Us</a></span>
+  </p>
+  </div>
+</div>
+</section>
+<section style="background-color: gainsboro; margin: 20px;">
 
-    hello this is contactus
+   <!-- Default form contact -->
+<form class="text-center border border-light p-5" action="#!">
+
+  <p class="h4 mb-4">Contact us</p>
+
+  <!-- Name -->
+  <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+  <!-- Email -->
+  <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+  <!-- Subject -->
+  <label>Subject</label>
+  <select class="browser-default custom-select mb-4">
+      <option value="" disabled>Choose option</option>
+      <option value="1" selected>Feedback</option>
+      <option value="2">Report a bug</option>
+      <option value="3">Feature request</option>
+      <option value="4">Feature request</option>
+  </select>
+
+  <!-- Message -->
+  <div class="form-group">
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+  </div>
+
+  <!-- Copy -->
+  <div class="custom-control custom-checkbox mb-4">
+      <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+      <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+  </div>
+
+  <!-- Send button -->
+  <button class="btn btn-info btn-block" type="submit">Send</button>
+
+</form>
+<!-- Default form contact -->
 </section>
 
-
-
-<section>
   <!-- Footer -->
-<footer class="page-footer fixed-bottom font-small blue-grey lighten-5">
+<footer class="page-footer  font-small blue-grey lighten-5">
 
   <div style="background-color: #21d192;">
     <div class="container">
