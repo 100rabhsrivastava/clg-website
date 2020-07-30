@@ -100,6 +100,8 @@ body{
    font-style: italic;
    font-weight: 300;
    color: white;
+   text-decoration-line: underline;
+   text-decoration-style: solid;
 }
 #set{
   color: #DEF2F1;
@@ -111,6 +113,9 @@ body{
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 3.5px;
+  border-color: #DEF2F1;
+  border-style: double;
+  border-width: 2px;
 }
 .subsec{
   display: flex;
@@ -123,6 +128,7 @@ body{
 }
 .ugh{
   padding: 1px;
+  
   
 }
 
@@ -161,9 +167,12 @@ body{
     overflow-x: scroll;
   }
  
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 320px){
     .res{
-      font-size: 24px;
+      font-size: 22px;
+    }
+    #one{
+      width: 100%;
     }
    
   }
