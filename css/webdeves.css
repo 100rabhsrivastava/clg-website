@@ -14,7 +14,7 @@
     left:0;
     width:50%;
     height:40%;
-    border:3px solid #222;
+    border:3px solid red;
     border-right:3px solid transparent;
     border-bottom:3px solid transparent;
     transform: scale(1,1);
@@ -27,7 +27,7 @@
     right:0;
     width:50%;
     height:40%;
-    border:3px solid #222;
+    border:3px solid red;
     border-left:3px solid transparent;
     border-top:3px solid transparent;
     transition: all 0.50s linear;
@@ -47,7 +47,7 @@
     right:0;
     width:50%;
     height:40%;
-    border:3px solid #222;
+    border:3px solid red;
     border-left:3px solid transparent;
     border-top:3px solid transparent;
     transform: scale(1,1);
@@ -81,7 +81,7 @@
 .profile-card .profile-content .title{
     font-size:22px;
     font-weight: bold;
-    color:white;
+    color:black;
     opacity:0;
     letter-spacing:2px;
     text-transform:uppercase;
