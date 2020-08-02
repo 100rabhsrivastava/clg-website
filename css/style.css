@@ -1,5 +1,5 @@
 body{
-  background-color:#E0F7FA ;
+  background-color:#FAFAFA   ;
 }
 
 /* #sent{
@@ -145,17 +145,18 @@ body{
 } */
 
 .result{
-  background-color: burlywood;
+  background-color:#FDD835  ;
   padding:20px;
   width: 100%;
   height: 350px;
   overflow-y: scroll;
+  color:white;
 }
 .result-name{
 padding: 5px;
 padding-top: 24px;
 padding-left: 15px;
-color: black;
+color: white;
 font-weight: 300;
 } 
 .res-img{
