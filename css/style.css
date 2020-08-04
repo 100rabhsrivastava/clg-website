@@ -18,8 +18,36 @@ body{
   transform: translate(58%,-15%);
  
 } */
+.facbreadcrum {
+  position: relative;
+  text-align: center;
+  color: black;}
+.midle {
+ 
+  padding: 0px;
+  font-weight: 1000;
+  font-size: 50px;
+font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-
+@media screen and (max-width: 480px) {
+  .slider-logo{
+    display: none;
+  }
+  .midle{
+    margin-top: -20px;
+   font-size: 20px;
+  }
+  .ob{
+    font-size: 19px;
+  }
+  .facbreadcrum {
+   margin-top: 0px;}
+}
 
 .events{
     border-radius: 20px;
