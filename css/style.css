@@ -25,9 +25,9 @@ body{
   color: black;}
 .midle {
   background-color: rgba(255, 255, 255, 0.4);
- width: 70%;
- 
-  padding: 0px;
+ width: 80%;
+ /* margin: -80px;
+  padding: 10px; */
   font-weight: 1000;
   font-size: 50px;
 font-family: 'Playfair Display', serif;
