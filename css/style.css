@@ -42,8 +42,8 @@ font-family: 'Playfair Display', serif;
     display: none;
   }
   .midle{
-    margin-top: -20px;
-   font-size: 20px;
+    margin-top: -15px;
+   font-size:19px;
   }
   .ob{
     font-size: 19px;
@@ -102,7 +102,7 @@ font-family: 'Playfair Display', serif;
 }
 .board{
     margin: 10px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
     color: black;
     font-family: 'Roboto Condensed', sans-serif;

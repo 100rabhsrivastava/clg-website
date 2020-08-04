@@ -2,7 +2,7 @@
   position: relative;
   text-align: center;
   color: black;}
-.midle {
+.middle {
  
   padding: 15px;
   font-weight: 1000;
@@ -103,7 +103,7 @@ width: 250px;
   border-top-right-radius: 20px;
 }
   @media screen and (max-width: 480px) {
-    .midle{
+    .middle{
       margin-top: 10px;
      font-size: 24px;
     }
