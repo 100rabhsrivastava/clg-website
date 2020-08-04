@@ -50,7 +50,7 @@
 }
 
 .ds-msg{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     display: flex;
 
 }

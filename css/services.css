@@ -1,0 +1,63 @@
+.facbreadcrum {
+    position: relative;
+    text-align: center;
+    color: black;}
+  .midle {
+   
+    padding: 15px;
+    font-weight: 1000;
+    font-size: 50px;
+  font-family: 'Playfair Display', serif;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ob{
+    font-weight: 400px;
+    color: orangered;
+    font-size: 30px;
+  }
+
+  .ser-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.paras{
+    padding-left: 60px;
+    padding-right: 60px;
+      font-size: 20px;
+      text-align: justify;
+      color: black;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+  @media screen and (max-width: 480px) {
+    .midle{
+      margin-top: 10px;
+     font-size: 24px;
+    }
+    .ob{
+      font-size: 15px;
+    }
+    .facbreadcrum {
+     margin-top: 8px;}
+     .but{
+       padding: 5px;
+     }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
