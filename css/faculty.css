@@ -1,0 +1,21 @@
+.naming{
+    margin-left:50px ;
+    width: 90%%;
+    padding-left: 15px;
+    font-size: 35px;
+    color: teal;
+    font-weight: bold;
+    border-bottom: 2px dashed teal;
+}
+.inner{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+    
+}
+.lines{
+    display: flex;
+    justify-content: space-evenly;
+}
