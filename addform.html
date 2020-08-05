@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		.container{
+			margin-top: 1%;
+		}
+		.myli{
+			padding: 5px;
+		}
+		@media only screen and (max-width: 480px){
+		.myfrm{
+			display: inline;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div>
+	</div>
+	<div class="container">
+		<h2>Admission Form</h2>
+<form action="config.php" method="POST">
+	<label><h6>Name of the candidate, as per 10<sup>th</sup> Mark list.</h6></label>
+  <div class="form-row">
+    <div class="col-md-6 mb-2">
+      <label for="surname">Surname</label>
+      <input type="text" class="form-control" name="surnamei" required>
+    </div>
+    <div class="col-md-6 mb-2">
+      <label for="oname">Name</label>
+      <input type="text" class="form-control" name="onamei" required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-2">
+      <label for="fname">Father's Name</label>
+      <input type="text" class="form-control" name="fnamei" required>
+    </div>
+    <div class="col-md-6 mb-2">
+      <label for="mname">Mother's Name</label>
+      <input type="text" class="form-control" name="mnamei" required>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="col-md-9 mb-2">
+      <label for="aadhar">Aadhar Number</label>
+      <input type="text" class="form-control" name="aadhari" required>
+    </div>
+    <div class="col-md-3 mb-2">
+      <label for="sex">Sex</label>
+      <input type="text" class="form-control" name="sexi" required>
+    </div>
+    </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="dob">Date of Birth</label>
+      <input type="Date" class="form-control" name="dobi" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="age">Age</label>
+      <input type="text" class="form-control" name="agei" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="mot">Mother Tongue</label>
+      <input type="text" class="form-control" name="moti" required>
+    </div>
+  </div>
+   <div class="form-row">
+  <div class="form-group col-md-4 mb-3">
+  	<label>Select which is applicable</label>
+      <select id="inputState" class="form-control" name="swai">
+        <option selected>Select</option>
+        <option>SC</option>
+        <option>ST</option>
+        <option>NT</option>
+        <option>VJ</option>
+        <option>OBC</option>
+        <option>SBC</option>
+        <option>General</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="caste">Caste</label>
+      <input type="text" class="form-control" name="castei" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="religion">Religion</label>
+      <input type="text" class="form-control" name="religioni" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="phi">
+        <label class="form-check-label" for="gridCheck1">
+          Physically Handicap
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="lep">Last examination passed</label>
+      <input type="text" class="form-control" name="lepi" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="yop">Year of passing</label>
+      <input type="text" class="form-control" name="yopi" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="roll">Roll No.</label>
+      <input type="text" class="form-control" name="rolli" required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-3 mb-3">
+      <label for="mob">Marks obtained</label>
+      <input type="text" class="form-control" name="mobi" required>
+    </div>
+    <div class="col-md-2 mb-3">
+      <label for="oof">Out of</label>
+      <input type="text" class="form-control" name="oofi" required>
+    </div>
+    <div class="col-md-2 mb-3">
+      <label for="prcntg">% of marks</label>
+      <input type="text" class="form-control" name="prcntgi" required>
+    </div>
+    <div class="col-md-5 mb-3">
+      <label for="board">Name of boards</label>
+      <input type="text" class="form-control" name="boardi" required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-8 mb-3">
+      <label for="lastsc">Name of School/College last attended</label>
+      <input type="text" class="form-control" name="lastsci" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="udise">UDISE No.</label>
+      <input type="text" class="form-control" name="udisei" required>
+    </div>
+</div>
+<div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label for="scholar">Name of Freeship/Scholarship(if eligible)</label>
+      <input type="text" class="form-control" name="scholari" required>
+    </div>
+    </div>
+    <label><h6>Subjects the applicant wants to offer</h6></label>
+    <div class="form-row">
+    <div class="col-md-6 mb-3">
+    	<label>Compulsory Subjects</label>
+    	<ul class="list-group">
+  <li class="list-group-item">English</li>
+  <li class="list-group-item">Marathi</li>
+  <li class="list-group-item">Environmental Education</li>
+  <li class="list-group-item">Health and Physical Edu.</li>
+ 
+</ul>
+</div>
+<div class="col-md-6 mb-3">
+    	<ul class="list-group">
+    	<label>Optional subjects</label>
+  <li class="list-group-item myli"><input type="text" class="form-control" name="onei"></li>
+  <li class="list-group-item myli"><input type="text" class="form-control" name="twoi"></li>
+  <li class="list-group-item myli"><input type="text" class="form-control" name="threi"></li>
+  <li class="list-group-item myli"><input type="text" class="form-control" name="fouri"></li>
+</ul>
+</div>
+</div>
+<label><h6>Parent's Details</h6></label>
+<div class="form-row">
+    <div class="col-md-3 mb-3">
+      <label for="occ">Occupation</label>
+      <input type="text" class="form-control" name="occi" required>
+    </div>
+    <div class="col-md-5 mb-3">
+      <label for="firm">Firm/Office in which working</label>
+      <input type="text" class="form-control" name="firmi" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="income">Annual Income</label>
+      <input type="text" class="form-control" name="incomei" required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label for="coadd">Corresponding Address</label>
+      <input type="text" class="form-control" name="coaddi" required>
+    </div>
+  </div>
+  <label><h6>Contact</h6></label>
+  <div class="form-row">
+    <div class="col-md-3 mb-3">
+      <label for="landline">Land line</label>
+      <input type="text" class="form-control" name="landlinei" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="mob1">Mobile No.1</label>
+      <input type="text" class="form-control" name="mob1i" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="mob2">Mobile No.2</label>
+      <input type="text" class="form-control" name="mob2i" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="mob3">Mobile No.3</label>
+      <input type="text" class="form-control" name="mob3i" required>
+    </div>
+</div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+</div>
+</body>
+</html>

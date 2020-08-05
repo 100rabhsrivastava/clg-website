@@ -27,3 +27,24 @@
     font-weight: bold;
     padding-left: 40px;
 }
+.review1{
+    background-color: cadetblue;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.651);
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    text-align: justify;
+    
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+   
+    .content{
+        display: inline;
+        padding: 5px;
+    }
+    .cont{
+        padding: 5px;
+        text-align: justify;
+    }
+  }
