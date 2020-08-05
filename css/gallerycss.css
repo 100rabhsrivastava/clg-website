@@ -23,17 +23,18 @@ body{
     font-size: 30px;
   }
 
-.album{
-  padding: 20px;
 
-  height: auto;
-}
 .album-row{
 justify-content: space-around;
   display: flex;
+  margin: 20px;
+  padding: 20px;
 }
-.imgs{
- 
+.card{
+  margin: 15px;
+}
+.card{
+
   box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.651);
 	overflow: hidden;
   
@@ -43,7 +44,7 @@ justify-content: space-around;
 .album-name{
 
   position: absolute;
-top: 87%;
+top: 88%;
  background-color: rgba(2, 2, 2, 0.521);
 padding-left: 5px;
  width: 100%;
@@ -52,25 +53,13 @@ padding-left: 5px;
  font-size: 28px;
  font-weight: bold;
 }
-.imgani{
-  width: 400px;
-  transition: transform 400ms ease-out;
-}
-.imgani:hover{
-  transform: scale(1.3);
-  transition: transform 400ms ease-out;
-}
-.link{
-  padding-top: 3px;
-  font-size: 25px;
-  float: right; padding-right: 10px; 
-}
+
 
   @media screen and (max-width: 480px) {
    
     .midle{
       margin-top: 10px;
-     font-size: 24px;
+     font-size: 20px;
     }
     .ob{
       font-size: 19px;
@@ -81,9 +70,10 @@ padding-left: 5px;
   @media screen and (max-width: 780px) {
    .album-row{
      display: inline;
+     margin: 20px;
    }
 
-    .imgs{
-      margin-bottom: 12px;
+    .album-name{
+      top: 86%;
     }
   }
