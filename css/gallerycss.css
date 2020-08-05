@@ -23,7 +23,10 @@ body{
     font-size: 30px;
   }
 
-  
+.gallery-image{
+  width: 250px;
+  height: 300px;
+}
   @media screen and (max-width: 480px) {
    
     .midle{
