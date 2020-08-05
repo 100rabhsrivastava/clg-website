@@ -1,6 +1,6 @@
 .naming{
     margin-left:50px ;
-    width: 90%%;
+    width: 90%;
     padding-left: 15px;
     font-size: 35px;
     color: teal;
@@ -18,4 +18,34 @@
 .lines{
     display: flex;
     justify-content: space-evenly;
+}
+@media screen and (max-width: 480px) {
+    .lines{
+        display: inline;
+        margin: 5px;
+    }
+    .naming{
+        margin: 5px;
+
+    }
+.inner{
+    margin: 15px;
+}
+  }
+.horiline{
+    display: flex;
+    margin: 10px;
+}
+.plate{
+    background-color: seashell;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(10, 2, 2, 0.404);
+    padding: 10px;
+}
+.plate-img{
+ border-radius: 50%;
+}
+.plate-cont{
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
 }
