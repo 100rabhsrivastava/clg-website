@@ -36,14 +36,14 @@ justify-content: space-around;
   margin: 5px;
   box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.651);
 	overflow: hidden;
-  
+  object-fit: cover;
   position: relative;
 
 }
 .album-name{
 
   position: absolute;
-top: 87%;
+top: 88%;
  background-color: rgba(2, 2, 2, 0.521);
 padding-left: 5px;
  width: 100%;
@@ -53,6 +53,8 @@ padding-left: 5px;
  font-weight: bold;
 }
 .imgani{
+  width: 300px;
+  height: 300px;
   transition: transform 400ms ease-out;
 }
 .imgani:hover{
@@ -78,7 +80,7 @@ padding-left: 5px;
     .facbreadcrum {
      margin-top: 8px;}
   }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 500px) {
    .album-row{
      display: inline;
    }
