@@ -19,6 +19,30 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+  
+.horiline{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.plate{
+ 
+    background-color: seashell;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(10, 2, 2, 0.404);
+    padding: 0  30px;
+    margin: 10px;
+}
+.plate-img{
+    display: block;
+    margin: 0 auto;
+ border-radius: 50%;
+}
+.plate-cont{
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+}
 @media screen and (max-width: 480px) {
     .lines{
         display: inline;
@@ -29,23 +53,9 @@
 
     }
 .inner{
-    margin: 15px;
-}
-  }
-.horiline{
-    display: flex;
-    margin: 10px;
-}
-.plate{
-    background-color: seashell;
-    box-shadow: 0.3rem 0.4rem 0.4rem rgba(10, 2, 2, 0.404);
-    padding: 10px;
-}
-.plate-img{
- border-radius: 50%;
-}
-.plate-cont{
-    padding-top: 8px;
-    text-align: center;
-    font-weight: bold;
+     margin: 15px;}
+    .horiline{
+display: inline;
+width: 95%;
+     }
 }
