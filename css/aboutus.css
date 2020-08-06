@@ -100,12 +100,9 @@ height: 60%;
    display: inline;
    padding: 10px;
  }
- .phone{
-  background-color: violet;
-  display: inline;
+
 }
 
- }
  @media screen and (max-width: 480px) {
   .midle{
     margin-top: 10px;
@@ -116,4 +113,7 @@ height: 60%;
   }
   .facbreadcrum {
    margin-top: 8px;}
+   .phone{
+    background-color: violet;
+    display: inline;}
 }
