@@ -37,6 +37,7 @@
     background-color: seashell;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(10, 2, 2, 0.404);
     padding: 0  30px;
+    padding-top: 5px;
     margin: 10px;
 }
 .plate-img{
