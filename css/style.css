@@ -39,7 +39,9 @@ font-family: 'Playfair Display', serif;
 
 @media screen and (max-width: 480px) {
   .slider-logo{
-    display: none;
+    padding-top: 10px;
+   width: 70px;
+   height: 60px;
   }
   .midle{
     margin-top: -15px;
