@@ -27,7 +27,7 @@
     justify-content: space-evenly;
 }
 .plate{
- 
+ position: relative;
     background-color: seashell;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(10, 2, 2, 0.404);
     padding: 0  30px;
@@ -42,6 +42,17 @@
     padding-top: 8px;
     text-align: center;
     font-weight: bold;
+}
+.list{
+
+list-style: none;
+    position: absolute;
+ text-decoration: none;
+    top:78%;
+    left: -7%;
+}
+li{
+    list-style: none;
 }
 @media screen and (max-width: 480px) {
     .lines{
