@@ -19,12 +19,18 @@
     display: flex;
     justify-content: space-evenly;
 }
-
+.head{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #1B4F72 ;
+    font-family: 'Fjalla One', sans-serif;
+}
   
 .horiline{
     display: flex;
     margin: 10px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .plate{
  position: relative;
