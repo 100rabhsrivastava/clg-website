@@ -36,7 +36,7 @@
  
     margin: 10px;
     padding: 10px;
-    font-weight: 520;
+    font-weight: 320;
     padding-bottom: 6px;
     background-color:#F1948A ;
 
@@ -47,6 +47,12 @@
     padding: 10px;
     padding-bottom: 6px;
     background-color:#82E0AA ;
+}
+.paras{
+  font-size: 17px;
+  text-align: justify;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .ds-msg{
