@@ -100,6 +100,10 @@ height: 60%;
    display: inline;
    padding: 10px;
  }
+ .phone{
+  background-color: violet;
+  display: inline;
+}
 
  }
  @media screen and (max-width: 480px) {
