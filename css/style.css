@@ -1,5 +1,5 @@
 body{
-  background-color:#eefff41c    ;
+  background-color:rgb(252, 252, 252)  ;
 }
 
 /* #sent{
@@ -131,13 +131,13 @@ a{
 
 .scrollbar
 {
-	margin-left: 30px;
+
 	float: left;
-	height: 300px;
-	width: 65px;
+	height: 350px;
+	width: 100%;
 	background: #F5F5F5;
 	overflow-y: scroll;
-	margin-bottom: 25px;
+	/* margin-bottom: 25px; */
 }
 
 .force-overflow
@@ -246,15 +246,15 @@ a{
   
 } */
 
-/* .result{
-  background-color:#FDD835  ;
+.result{
+  background-color:#2C3E50    ;
   padding:20px;
   width: 100%;
-  height: 350px;
-  overflow-y: scroll;
+
+ 
   color:#edf5e1;
   
-} */
+}
 .result-name{
 padding: 5px;
 padding-top: 24px;
