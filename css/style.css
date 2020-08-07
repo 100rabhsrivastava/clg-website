@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(252, 252, 252)  ;
+  background-color:#ffffff    ;
 }
 
 /* #sent{
@@ -110,75 +110,6 @@ font-family: 'Playfair Display', serif;
     font-family: 'Roboto Condensed', sans-serif;
     
 }
-header
-{
-	font-family: 'Lobster', cursive;
-	text-align: center;
-	font-size: 25px;	
-}
-
-#info
-{
-	font-size: 18px;
-	color: #555;
-	text-align: center;
-	margin-bottom: 25px;
-}
-
-a{
-	color: #074E8C;
-}
-
-.scrollbar
-{
-
-	float: left;
-	height: 350px;
-	width: 100%;
-	background: #F5F5F5;
-	overflow-y: scroll;
-	/* margin-bottom: 25px; */
-}
-
-.force-overflow
-{
-	min-height: 450px;
-}
-
-
-
-#style-15::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
-	background-color: #F5F5F5;
-	border-radius: 10px;
-}
-
-#style-15::-webkit-scrollbar
-{
-	width: 4px;
-	background-color: #F5F5F5;
-}
-
-#style-15::-webkit-scrollbar-thumb
-{
-	border-radius: 100px;
-	background-color: #FFF;
-	background-image: -webkit-gradient(linear,
-									   40% 0%,
-									   75% 84%,
-									   from(#4D9C41),
-									   to(#19911D),
-									   color-stop(.6,#54DE5D))
-}
-
-/*
- *  STYLE 16
- */
-
-
-
-
 /* .containerrr{
   border-color: teal;
 }
@@ -247,19 +178,19 @@ a{
 } */
 
 .result{
-  background-color:#2C3E50    ;
+  background-color:#FDD835  ;
   padding:20px;
   width: 100%;
-
- 
-  color:#edf5e1;
+  height: 350px;
+  overflow-y: scroll;
+  color:black;
   
 }
 .result-name{
 padding: 5px;
 padding-top: 24px;
 padding-left: 15px;
-color: #edf5e1;
+color: black;
 font-weight: 300;
 } 
 .res-img{
@@ -308,7 +239,7 @@ padding-top: 5px;
     
    }
    .service{
-     background-color: #ffffff;
+     background-color: #3AAFA9;
    }
   
   
