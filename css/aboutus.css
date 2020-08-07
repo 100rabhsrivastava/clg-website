@@ -23,7 +23,7 @@
     font-size: 30px;
     text-align: center;
     font-weight: 600;
-    color: black;
+    color: #031640;
     font-family: 'Playfair Display', serif;
 }
 .para{
@@ -38,7 +38,7 @@
     padding: 10px;
     font-weight: 320;
     padding-bottom: 6px;
-    background-color:#e93219 ;
+    background-color:#faa095 ;
 
 } 
 .mission{
@@ -46,7 +46,7 @@
     margin: 10px;
     padding: 10px;
     padding-bottom: 6px;
-    background-color:#82E0AA ;
+    background-color:#d6f8b4 ;
 }
 .paras{
   font-size: 17px;
