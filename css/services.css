@@ -23,6 +23,8 @@
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    color: #031640;
+    font-family: 'Volkhov', serif;
     
 }
 .paras{
@@ -31,7 +33,7 @@
       font-size: 20px;
       text-align: justify;
       color: black;
-      font-family: 'Roboto Condensed', sans-serif;
+      font-family: 'Titillium Web', sans-serif;
   }
   @media screen and (max-width: 480px) {
     .midle{
