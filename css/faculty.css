@@ -18,13 +18,14 @@
 .lines{
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Titillium Web', sans-serif;
 }
 .head{
     font-size: 30px;
     text-align: center;
     font-weight: 600;
-    color: #1B4F72 ;
-    font-family: 'Fjalla One', sans-serif;
+    color: #031640 ;
+    font-family: 'Volkhov', serif;
 }
   
 .horiline{
@@ -39,6 +40,7 @@
     padding: 0  30px;
     padding-top: 5px;
     margin: 10px;
+    font-family: 'Titillium Web', sans-serif;
 }
 .plate-img{
     display: block;
@@ -49,6 +51,7 @@
     padding-top: 8px;
     text-align: center;
     font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
 }
 .list{
 

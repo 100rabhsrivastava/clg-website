@@ -7,7 +7,7 @@
     padding: 15px;
     font-weight: 1000;
     font-size: 50px;
-  font-family: 'Playfair Display', serif;;
+    font-family: 'Playfair Display SC', serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,13 +24,13 @@
     text-align: center;
     font-weight: 600;
     color: #031640;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Volkhov', serif;
 }
 .para{
     font-size: 20px;
     text-align: justify;
     color: black;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 .vision{
  
@@ -39,6 +39,7 @@
     font-weight: 320;
     padding-bottom: 6px;
     background-color:#faa095 ;
+    font-family: 'Titillium Web', sans-serif;
 
 } 
 .mission{
@@ -47,12 +48,13 @@
     padding: 10px;
     padding-bottom: 6px;
     background-color:#d6f8b4 ;
+    font-family: 'Titillium Web', sans-serif;
 }
 .paras{
   font-size: 17px;
   text-align: justify;
   color: black;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .ds-msg{
