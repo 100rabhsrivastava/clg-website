@@ -28,17 +28,17 @@ body{
 .cont{
     font-size: 20px;
     color: black;
-    font-weight: bold;
     padding-left: 40px;
+    font-family: 'Titillium Web', sans-serif;
 }
 .review1{
-    background-color: cadetblue;
+    background-color: #b1dce6 ;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.651);
     padding: 10px;
-    color: white;
+    color: black;
     font-size: 19px;
     text-align: justify;
-    
+    font-family: 'Titillium Web', sans-serif;
     margin-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
