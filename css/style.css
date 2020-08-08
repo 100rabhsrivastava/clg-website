@@ -30,7 +30,7 @@ body{
   padding: 10px; */
   font-weight: 1000;
   font-size: 50px;
-font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display SC', serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -94,13 +94,13 @@ font-family: 'Playfair Display', serif;
     text-align: center;
     font-weight: 600;
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Volkhov', serif;
 }
 .para{
     font-size: 20px;
     text-align: justify;
     color: black;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 .board{
     margin: 10px;

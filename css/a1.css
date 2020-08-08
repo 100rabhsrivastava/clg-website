@@ -2,15 +2,16 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .content{
+
     display: flex;
-    margin: 30px;
+    padding: 30px;
 }
-.imgbg{
+/* .imgbg{
    
   border: 4px solid  brown;
    
     position: relative;
-}
+} */
 .name{
     padding-left: 15px;
     position: absolute;
